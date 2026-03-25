@@ -8,7 +8,6 @@
 
 // INCLUDES
 
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -64,6 +63,9 @@ namespace StrUtils {
     /*
     splits a string into a vector of strings based on a delimiter
     
+    ARGS
+      str: the string to split
+      delimiter: the character to split on
     */
 
     std::vector<std::string> result;
