@@ -2,6 +2,8 @@
   StrUtils
   STRing UTILitieS
   made with <3 by spark
+
+  This project is licensed under the LGPLv3 License. See LICENSE for more details.
 */
 
 // INCLUDES
