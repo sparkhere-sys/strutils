@@ -27,6 +27,8 @@ namespace StrUtils {
     std::string result = str;
     size_t pos = 0; // no regex, screw you
 
+    if (from.empty()) {return str;} // guards against infinite loops
+
     while ((pos = result.find(from, pos)) != std::string::npos) {
       result.replace(pos, from.length(), to);
       pos += to.length(); // move past the replacement
@@ -83,6 +85,8 @@ namespace StrUtils {
     if (!current.empty()) {
       result.push_back(current);
     }
+
+    if (str.back() == delimiter) {result.push_back("");} // keeps trailing empty strings if the string ends with a delimiter
 
     return result;
   }
