@@ -14,7 +14,7 @@
 // NAMESPACES
 
 namespace StrUtils {
-  inline std::string replace_all(const std::string& str, const std::string& from, const std::string& to) { // yes im using snake_case, i am a python goblin
+  inline std::string replace_all(const std::string& str, const std::string& from, const std::string& to) {
     /*
     replaces all occurences of the argument `from` to the argument `to`
 
