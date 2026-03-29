@@ -22,7 +22,8 @@ Copy `include/StrUtils.hpp`
 
 ## Contributing
 
-* don't be a dick. seriously. that's it.
+* don't be a dick
+* dont commit straight to `main`.
 
 # uhhh bye
 
