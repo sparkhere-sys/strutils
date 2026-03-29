@@ -134,6 +134,10 @@ inline bool starts_with(const std::string& str, const std::string& prefix) {
     prefix: the string to check for
   */
 
+  /* NOTE: C++20 has std::string::starts_with and std::string::ends_with. this is for
+           backwards compatibility with C++17 and earlier.
+  */
+
   return str.length() >= prefix.length() && str.substr(0, prefix.length()) == prefix;
 }
 
@@ -145,6 +149,8 @@ inline bool ends_with(const std::string& str, const std::string& suffix) {
     str: the string to check
     suffix: the string to check for
   */
+
+  // see NOTE in starts_with()
 
   return str.length() >= suffix.length() && str.substr(str.length() - suffix.length()) == suffix;
 }
