@@ -1,0 +1,17 @@
+'size: tiny':
+  max: 4
+
+'size: small':
+  min: 5
+  max: 10
+
+'size: medium':
+  min: 11
+  max: 100
+
+'size: large':
+  min: 101
+  max: 500
+
+'size: huge':
+  min: 501

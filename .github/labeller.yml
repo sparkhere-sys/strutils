@@ -1,0 +1,18 @@
+"pr: documentation":
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.md"
+    # - docs/*
+
+"pr: github":
+- changed-files:
+  - any-glob-to-any-file:
+    - .github/*
+    - "**/*.yml"
+
+"pr: source code":
+- changed-files:
+  - any-glob-to-any-file:
+    # - src/*
+    - include/*
+    # - lib/*
